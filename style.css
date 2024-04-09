@@ -1,0 +1,42 @@
+body
+{
+  animation: bg 5s infinite;
+}
+
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin:0px
+}
+
+#start , #status , #number_of_objects
+{
+    font-size: 18px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: rgb(101, 97, 117);
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(249, 20, 81);
+}
+
+#text{
+    width:50%;
+}
+
+.left{
+    left: 0;
+    top: 50%;
+}
+
+@keyframes bg{
+    0%{background-color: black;}
+    50%{background-color: white;}
+    100%{background-color: black;}
+}
